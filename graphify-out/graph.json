@@ -1,0 +1,84 @@
+{
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_香港四日自由行網站",
+      "label": "香港四日自由行網站",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_更新規則",
+      "label": "更新規則",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_day_1_檸檬王的既定安排",
+      "label": "Day 1：檸檬王的既定安排",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_本次查核",
+      "label": "本次查核",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "readme",
+      "target": "readme_香港四日自由行網站",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_香港四日自由行網站",
+      "target": "readme_更新規則",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_香港四日自由行網站",
+      "target": "readme_day_1_檸檬王的既定安排",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_香港四日自由行網站",
+      "target": "readme_本次查核",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0
+    }
+  ]
+}
